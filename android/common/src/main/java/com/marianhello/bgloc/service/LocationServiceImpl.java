@@ -30,7 +30,7 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.Process;
 import androidx.annotation.Nullable;
-import androidx.core.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.marianhello.bgloc.Config;
 import com.marianhello.bgloc.ConnectivityListener;

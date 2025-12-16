@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.rule.ServiceTestRule;
 import android.support.test.runner.AndroidJUnit4;
-import androidx.core.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.marianhello.bgloc.data.BackgroundLocation;
 import com.marianhello.bgloc.provider.MockLocationProvider;
