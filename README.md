@@ -7,7 +7,7 @@ Original Repo: [@mauron85/react-native-background-geolocation](https://github.co
 ## Installation
 
 ```
-npm i nghiant96_react-native-background-geolocation
+npm i https://github.com/nghiant96/react-native-background-geolocation
 ```
 
 ### Automatic setup
