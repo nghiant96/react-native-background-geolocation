@@ -13,7 +13,7 @@
 // }
 //
 // ext {
-//   compileSdkVersion = 26
+//   compileSdk = 26
 //   targetSdkVersion = 26
 //   buildToolsVersion = "26.0.2"
 //   supportLibVersion = "26.1.0"
@@ -52,12 +52,12 @@ repositories {
     maven {
         url 'https://maven.google.com'
     }
-    jcenter()
+    mavenCentral()
 }
 
 android {
     namespace "com.marianhello.bgloc.react"
-    compileSdkVersion project.ext.getCompileSdkVersion()
+    compileSdk project.ext.getCompileSdkVersion()
     buildToolsVersion project.ext.getBuildToolsVersion()
     if (hasApp) {
         evaluationDependsOn(':app')
